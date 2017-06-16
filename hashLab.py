@@ -116,7 +116,7 @@ def main():
 	# Parse options
 	pars = optparse.OptionParser(description="HashLab")
 	pars.add_option('-e', '--encode',action="store", dest="encode", type="string", help=" Encode hash md5,sha1,sha224,sha256,sha384,sha512,base64,bin,hex",default=None)
-	pars.add_option('-d', '--decode',action="store", dest="dec", type="string", help=" decode base64 ,bin ,HEX",default=None)
+	pars.add_option('-d', '--decode',action="store", dest="dec", type="string", help=" decode base64 ,bin ,HEX, cesar",default=None)
 	pars.add_option('-w', '--word',action="store", dest="word", type="string", help=" word to encode/decode",default=None)
 	pars.add_option('-r', '--reverse',action="store", dest="reverse", type="string", help=" reverse text",default=None)
 	opts, args = pars.parse_args()	
