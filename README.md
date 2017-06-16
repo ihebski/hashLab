@@ -16,5 +16,5 @@ python hashLab.py -r FLAG
 ```
 ### Supports
 * Encode hash md5,sha1,sha224,sha256,sha384,sha512,base64,bin,hex
-* Decode base64 ,bin ,HEX
+* Decode base64 ,bin ,hex , cesar
 * Reverse text / option : -r
